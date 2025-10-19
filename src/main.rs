@@ -1,3 +1,6 @@
+use crate::math::binom;
+
+mod math;
 fn main() {
-    println!("Hello, world!");
+    println!("{}", binom(3, 2));
 }
